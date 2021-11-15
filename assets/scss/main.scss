@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    nav{
+        .header{
+            .box1{
+                background-color: #334E9E;
+            }
+            .logo{
+                background-color: #334E9E;
+                
+            }
+            .allLinks{
+                .menuTop{
+                    
+                    padding: 11.5px;
+                    .about{
+                        background-color: white;
+                        list-style: none;
+                        
+                        ul{
+                            li{
+                                margin-right: 15px;
+                                a{
+                                    text-decoration: none;
+                                    color: brown;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .social{
+                        position: absolute;
+                        right: 8.33333%;
+                        ul{
+                            li{
+                                margin-right: 9px;
+                                a{
+                                    text-decoration: none;
+                                    color: #334E9E;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+                .menuBottom{
+                    padding: 11.5px;
+                    background-color: #00ACEC;
+                    .menu{
+                        
+                        ul{
+                            li{
+                                margin-right: 20px;
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .phone{
+                        position: absolute;
+                        right: 8.33333%;
+                        ul{
+                            li{
+                                margin-right: 5px;
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+                                    img{
+                                        width: 25px;
+                                        height: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                
+                
+            }
+            .box2{
+                .top{
+                    background-color: white;
+                    padding: 14.5px;
+                    p{
+                        color: white;
+                    }
+                }
+                .bottom{
+                    background-color: #00ACEC;
+                    padding: 14.4px;
+                    p{
+                        color: #00ACEC;
+                    }
+                }
+            }
+        }
+    }
+}
